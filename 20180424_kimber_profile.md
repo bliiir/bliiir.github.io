@@ -6,7 +6,7 @@ Living in Copenhagen, Denmark, he has made it a priority to answer when Kimber c
 
 Rather than just play some tunes, his coping mechanisms that revolve around understanding how stuff works, combined with acute megalomania, led him to start off by dabbling in producing electronic music when his midlife crisis hit in 2016. To his credit, despite the megalomania, he quickly realised that to avoid embarrassing himself beyond what his very fair, thick but oddly frail skin could take, he needed to play and listen to a lot of tunes as well, so he took to DJ'ing in 2017.
 
-Sixteen months have gone since and you will find him in his studio most evenings, sifting through or playing deep, progressive, soulful, minimal techno like what comes out of Oscar Mulero's[1] PoleGroup[2], Ness[3] and Claudio PRC's[4] The Gods Planet (TGP)[5]. Other favorites of his are Brando Lupi[6], Yan Cook[7], Reeko[8], Woo York[9] and Recondite[10]
+Sixteen months have gone by since and you will find him in his studio most evenings, sifting through or playing deep, progressive, soulful, minimal techno like what comes out of Oscar Mulero's[1] PoleGroup[2], Ness[3] and Claudio PRC's[4] The Gods Planet (TGP)[5]. Other favorites of his are Brando Lupi[6], Yan Cook[7], Reeko[8], Woo York[9] and Recondite[10]
 
 Ras' strengths is his tolerance of mind altering substances, a feel for the tunes and his work ethic. He loves good music and cuddling up with a good mixer to sift through thousands of tracks to find a few gems. In the past he has compensated for the lack of experience by preparing well, but is now starting to loosen up and go a bit more off into uncharted areas - which, if you know him, can get a little scary.
 
