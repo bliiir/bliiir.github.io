@@ -14,7 +14,7 @@ Right, lets get to it
 ## Octaves
 Octaves are distinguished by *one* wavelength of the root note coinciding with *two* wavelengths of the octave.
 
-That's: 1:2
+> That's: 1:2
 
 The frequency of the root node being half that of its octave. The octave is also the note with which the scale "starts over". This is if course just a made up concept. The fact that we think c4 sounds like c5 is simply due to the 1:2 relationship. They are not *really* the same note.
 
@@ -27,7 +27,7 @@ This image shows the root node (c4, or middle c) as green and the octave note (c
 Perfect fifths are distinguished by *two* root node wavelengths co-insiding with *three* octave wavelengths. Like this:
 ![image](https://www.dropbox.com/s/q18c87ljc957e1s/https://www.dropbox.com/s/q18c87ljc957e1s/Screenshot%202018-04-28%2018.59.37_merge.png?dl=1)
 
-That's: 2:3
+> That's: 2:3
 
 When run through the oscilloscope at the same time it looks like this:
 
@@ -76,7 +76,7 @@ It takes *four* wavelengths of the root tone and *five* of the third for a repea
 
 ![image](https://www.dropbox.com/s/vhlk0jc35856kr7/Screenshot%202018-04-29%2012.34.57_merge.png?raw=1)
 
-That's: 4:5
+> That's: 4:5
 
 #### Minor third
 In a minor scale, the sequence of steps is ```2, 1, 2, 2, 1, 2, 2```. Another way to remember it is ```W h W W h W W```
@@ -95,10 +95,123 @@ However, when I put the two notes at the same time through the oscilloscope, I g
 
 I guess this is why we feel it has a darker feel than a minor third.
 
+Here is a screenshot of the oscilloscope rendering 300, 500, 800, 1300 Hz:
 
+![image](https://www.dropbox.com/s/bpp8x55xgf71pab/Screenshot%202018-04-29%2017.50.24.png?raw=1)
 
+![image](https://www.dropbox.com/s/3s054gac0d2zxv8/Screenshot%202018-04-29%2017.52.26.png?raw=1)
+It is clear that there is perfect periodic regularity between all the notes
 
+---
 
+## Chords
 
-### Root note
-Finding the root note...
+Here is an image of major chords with perfect fifths with each note in the C major scale as the root with all the notes as reference on the left and right.
+
+![image](https://www.dropbox.com/s/53nugxsxuanqbln/Screenshot%202018-04-29%2018.03.15.png?raw=1)
+
+If we [play the chords](https://www.dropbox.com/s/09na3p0ziop5tju/20180428_c_major_scale_chords.mp3?dl=0) it sounds pretty awful. That is because several of the notes in those chords are not in the C major scale.
+
+| # | Chord     | Scale compliance |
+| :--- | :--- | :--- |
+| 1 | C major | OK |
+| 2 | D major | 3rd, F#, is outside the scale |
+| 3 | E major | 3rd, G#, is outside the scale |
+| 4 | F major | OK |
+| 5 | G major | OK |
+| 6 | A major | 3rd, C#, is outside the scale |
+| 7 | B major | 3rd, D# and 5th, D#, are both outside the scale |
+| 8 | C major | OK |
+
+We can fix that by moving the thirds down to be minor thirds and fifths down to be diminished fifths. Lets try it:
+
+![image](https://www.dropbox.com/s/wtj8d8mnsk8hq72/Screenshot%202018-04-29%2018.18.30.png?raw=1).
+
+| # | Chord     | Scale compliance |
+| :--- | :--- | :--- |
+| 1 | C Major | OK |
+| 2 | D minor | OK |
+| 3 | E minor | OK |
+| 4 | F Major | OK |
+| 5 | G Major | OK |
+| 6 | A minor | OK |
+| 7 | B minor, dim 5 | OK |
+| 8 | C Major | OK |
+
+Also [sounds](https://www.dropbox.com/s/gpemtno9yxf05nn/20180428_c_major_scale_chords_fixed.mp3?dl=0) better.
+
+## Seventh
+Ok, cool - now lets add the 7th to the mix and see how that fares. Lets start out by naively making a C major 7th and then copying it out with each note of the C Major scale as the root of each chord. Looks like this.
+
+![image](https://www.dropbox.com/s/2zrjf7a34e9eqkb/Screenshot%202018-04-29%2018.33.40.png?raw=1)
+
+Again, we can see that a lot of the notes are on the dark stripes indicating the black keys on the piano.
+
+| # | Chord     | Scale compliance |
+| :--- | :--- | :--- |
+| 1 | C major | OK |
+| 2 | D major | 3rd, F# and 7th C#, are outside the scale |
+| 3 | E major | 3rd, G# and 7th D#, are outside the scale |
+| 4 | F major | OK |
+| 5 | G major | 7th, F# is outside the scale |
+| 6 | A major | 3rd, C# and G#, are outside the scale |
+| 7 | B major | 3rd, D# 5th, D# and 7th A#, are all outside the scale |
+| 8 | C major | OK |
+
+Also [sounds really intense](https://www.dropbox.com/s/d8qv1r2gvc7gx13/20180428_c_major_scale_chords_7th.mp3?dl=0).Lets fix that - just like before, we move the 3rd's and 5th's down and now also the 7th's.
+
+Looks like this:
+
+![image](https://www.dropbox.com/s/a4if1txocprfvmy/Screenshot%202018-04-29%2018.41.58.png?raw=1)
+
+| # | Chord     | Scale compliance |
+| :--- | :--- | :--- |
+| 1 | C Major, 7 | OK |
+| 2 | D minor, dim7 | OK |
+| 3 | E minor, dim7 | OK |
+| 4 | F Major | OK |
+| 5 | G Major, dim 7 | OK |
+| 6 | A minor, dim 7 | OK |
+| 7 | B minor, dim 5, dim 7 | OK |
+| 8 | C Major | OK |
+
+Cool - now we can make a chart of all the chords in all the scales (I am conveniently going to avoid talking about the 9th etc for now)
+
+| Major scale | minor scale | Chord | 3rd | 5th | 7th |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 |   | Major | - | - | - |
+| | | | | | |
+| | | | | | |
+| 2 |   | minor | dim | - | dim |
+| | | | | | |
+| | | | | | |
+| 3 |   | minor | dim | - | dim |
+| | | | | | |
+| 4 |   | Major | - | - | - |
+| | | | | | |
+| | | | | | |
+| 5 |   | Major | - | - | dim |
+| | | | | | |
+| | | | | | |
+| 6 | 1 | minor | dim | _ | dim |
+| | | | | | |
+| | | | | | |
+| 7 | 2 | minor | dim | dim | dim |
+| | | | | | |
+| 8 | 3 | Major | - | - | - |
+| | | | | | |
+| | | | | | |
+|   | 4 | Major | - | - | - |
+| | | | | | |
+| | | | | | |
+|   | 5 | minor | dim | - | dim |
+| | | | | | |
+|   | 6 | minor | dim | - | dim |
+| | | | | | |
+| | | | | | |
+|   | 7 | Major | - | - | - |
+| | | | | | |
+| | | | | | |
+|   | 8 | Major | - | - | dim |
+
+I was going to make a table with all the root notes, but thought better of it. I will not remember anyway, so better to move on or actually make some music...
