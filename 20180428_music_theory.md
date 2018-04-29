@@ -1,0 +1,104 @@
+**Music Journal**  
+Rasmus Groth,  
+Utterslev, Denmark,   
+20180428
+
+# Music theory
+
+Taking the Music [Theory for Electronic Music](https://www.udemy.com/music-theory-for-electronic-music-complete-parts-1-2-3/learn/v4/overview) course on Udemy. I am trying to work through the material with all the stuff I am learning including coding in such a way that I have a kind of first hand understanding of it rather than have just listened to the lecture as I find that despite thinking I understand the lecture, I never really do unless I resolve all the little "what about ..." myself. In this case I discovered the nature of the Temperate vs Just Intonation tuning systems and also the ratios between the notes in the minor and major scale.
+
+This way of studying is incredibly slow, but I am not studying to get a degree or certificate, but simply to understand more about the subject. I am also not publishing these notes because the material isn't out there already, but more as an exercise in writing about topics that interest me so that I might at some point be able to produce material that is helpful for others like all the many many resources I have been so lucky to have available to me.
+
+Right, lets get to it
+
+## Octaves
+Octaves are distinguished by *one* wavelength of the root note coinciding with *two* wavelengths of the octave.
+
+That's: 1:2
+
+The frequency of the root node being half that of its octave. The octave is also the note with which the scale "starts over". This is if course just a made up concept. The fact that we think c4 sounds like c5 is simply due to the 1:2 relationship. They are not *really* the same note.
+
+This image shows the root node (c4, or middle c) as green and the octave note (c5 or the c higher than middle c) as reed
+![image](https://www.dropbox.com/s/9hh3uv0p9fnq37u/Screenshot%202018-04-28%2018.15.01_merge.png?raw=1)
+
+## Fifth
+
+### Perfect fifth
+Perfect fifths are distinguished by *two* root node wavelengths co-insiding with *three* octave wavelengths. Like this:
+![image](https://www.dropbox.com/s/q18c87ljc957e1s/https://www.dropbox.com/s/q18c87ljc957e1s/Screenshot%202018-04-28%2018.59.37_merge.png?dl=1)
+
+That's: 2:3
+
+When run through the oscilloscope at the same time it looks like this:
+
+![image](https://www.dropbox.com/s/arrsa2ihi94pl7c/Screenshot%202018-04-29%2014.09.10.png?raw=1). There is a clear patter, but if you look close, you can see that it changes over the entire series I've plotted. That is because normal western instruments are tuned using the [equal temperatement](https://en.wikipedia.org/wiki/Equal_temperament) method which compromises ther relationship between the weavelengths of the notes in the scale in order to simplify the instruments rather than the [Just Intonation system](https://en.wikipedia.org/wiki/Just_intonation) method.
+
+### Diminished fifth
+If you are in a major scale and you want to play a harmony of the 7th note in the scale, the perfect fifth will be the sharp of the 4th note and outside the scale.
+
+Example:
+![image](https://www.dropbox.com/s/7z82oshdsdjkudv/Screenshot%202018-04-28%2022.16.35.png?raw=1)
+
+We are looking at a C major scale with the root + fifth harmonies along the scale. Notice the 7th step (B) has the fifth (F#) outside the scale.
+
+To play inside the scale, we need to move the fifth one half tone down - or diminish it. Like this:
+
+![image](https://www.dropbox.com/s/qrk334eyjw078mu/Screenshot%202018-04-28%2022.19.10.png?raw=1)
+
+The F# in the 7th step of the scale is now an F and no longer a perfect fifth, but now within the C major scale
+
+Using a Diminished fifth does screw with the cyclicality of the waves. Take a look at this image:
+
+![image](https://www.dropbox.com/s/e8xjh0gvqgq1tar/Screenshot%202018-04-29%2012.58.00_merge.png?dl=1)
+
+As mentioned above, the root(green) and the perfect fifth(red) have a 2:3 wavelength relationship. The root and the diminished fifth do not have that kind of relationship - in fact, it is hard to spot a precise cyclicality at all. There is one close to 5:7, but it isn't a true relationship.
+
+Here is a graph of both notes run through the oscilloscope:
+
+![image](https://www.dropbox.com/s/uza98zxjv0pktvi/Screenshot%202018-04-29%2014.08.21.png?raw=1)
+
+Again - there are clearly patterns, but not as simple ones as the perfect fifth.
+
+## Third
+This one is a bit more tricky because the third has a lot to do with what kind of scale we are in.
+
+<figure>
+  <img src="https://www.dropbox.com/s/i0bf9glym752ve4/Screenshot%202018-04-28%2022.40.45.png?dl=1" alt="my alt text"/>
+  <figcaption>The C major scale is on the left and the C minor scale on the right</figcaption>
+</figure>
+
+#### Major third
+In a major scale the sequence is ```2, 2, 1, 2, 2, 2, 1```, where 2 signifies two half steps or a whole step, and 1 signifies a half step. Another way to remember it is ```W W h W W W h``` where ```W``` signifies a whole step and ```h``` signifies a half step.
+
+In this case, the third is an E as can be seed from the figure above.
+
+It takes *four* wavelengths of the root tone and *five* of the third for a repeateable cycle to complete - and it looks like that isn't a completely precise relationship either. That is because the major and minor scales use a compromise called [equal temperatement](https://en.wikipedia.org/wiki/Equal_temperament) to simplify the relationships between notes so as to be able to create an instrument such as a piano. In the [Just Intonation system](https://en.wikipedia.org/wiki/Just_intonation), the cycles fit perfectly together,
+
+![image](https://www.dropbox.com/s/vhlk0jc35856kr7/Screenshot%202018-04-29%2012.34.57_merge.png?raw=1)
+
+That's: 4:5
+
+#### Minor third
+In a minor scale, the sequence of steps is ```2, 1, 2, 2, 1, 2, 2```. Another way to remember it is ```W h W W h W W```
+
+In this case the third is a D# as can be seen from the figure above.
+
+Here is a [link](https://www.dropbox.com/s/3mudnk4ltjszrao/20180428_major_minor.mp3?dl=0) to an audio clip of the two scales
+
+There seems to be no real regularity about the cyclical harmony as can be seen from this image showing the root C in green and the minor third D# in red.
+
+![image](https://www.dropbox.com/s/2wi8t295jbp7mt3/Screenshot%202018-04-29%2013.54.04_merge.png?raw=1).
+
+However, when I put the two notes at the same time through the oscilloscope, I get this pattern:
+
+![image](https://www.dropbox.com/s/tz7mj3mf8ea7wt5/Screenshot%202018-04-29%2013.55.06.png?raw=1) which does show a clear pattern, but while it looks like the patterns repeats every 5.x root note wavelenghts, it still has some irregularities.
+
+I guess this is why we feel it has a darker feel than a minor third.
+
+
+
+
+
+
+### Root note
+Finding the root note...
