@@ -1,5 +1,5 @@
 name: Rasmus Groth, @bliiir
-markdown: kramdown
+# markdown: kramdown
 theme: jekyll-theme-minimal
 
 permalink: /blog/:year/:month/:day/:title
