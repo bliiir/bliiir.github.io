@@ -3,3 +3,4 @@ name: Rasmus Groth, @bliiir
 # theme: jekyll-theme-cayman
 theme: jekyll-theme-architect
 permalink: /blog/:year/:month/:day/:title
+layout: default
